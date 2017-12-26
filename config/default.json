@@ -1,0 +1,17 @@
+{
+    "google-spreadsheet": {
+        "sheet_id": "",
+        "service_account": {
+            "type": "service_account",
+            "project_id": "project-999999",
+            "private_key_id": "rundomnamojiretu89lsakj83u2",
+            "private_key": "-----BEGIN PRIVATE KEY-----\ndecodedstrings\n-----END PRIVATE KEY-----\n",
+            "client_email": "project@project.iam.gserviceaccount.com このアドレスに文書共有しとく",
+            "client_id": "012345678900123456",
+            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            "token_uri": "https://accounts.google.com/o/oauth2/token",
+            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ueno.client_email.no.url.encode.saretamojiretu"
+        }
+    }
+}

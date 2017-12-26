@@ -59,3 +59,6 @@ typings/
 
 
 /dest/*
+/config/development.json
+/config/production.json
+/config/DocTools-fec380e3b8a9.json

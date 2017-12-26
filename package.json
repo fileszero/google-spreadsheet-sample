@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/config": "0.0.33",
     "@types/node": "^8.5.2",
     "typescript": "^2.6.2"
   },
   "dependencies": {
+    "config": "^1.28.1",
     "google-spreadsheet": "^2.0.4"
   }
 }
