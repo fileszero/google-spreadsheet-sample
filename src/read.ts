@@ -10,9 +10,14 @@ console.log(credentials);
 testsheet.useServiceAccountAuth(credentials, (err) => {
     // console.log(err);
     testsheet.getInfo((err, data) => {
-        console.log(data);
+        // console.log(data);
         for (const sheet of data.worksheets) {
             console.log(sheet.title);
+            sheet.getRows({}, (err, rows) => {
+                for (const row of rows) {
+                    console.log(row);
+                }
+            });
         }
     });
 });
